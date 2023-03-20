@@ -1,7 +1,7 @@
 {
     "name": "auto-show-my-homework",
     "version": "1.0.0",
-    "main": "Backend\\Main\\main.js",
+    "main": "Backend\\Main\\main.ts",
     "description": "",
     "scripts": {
         "start": "electron ."

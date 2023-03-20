@@ -9,9 +9,10 @@ function createWindow()
             height: 560
         }
     );
+
     console.log(__dirname)
-    console.log(`${__dirname}../../Frontend/HTML/index.html`)
-    win.loadFile(`${__dirname}../../Frontend/HTML/index.html`)
+    console.log(`${__dirname}../../../Frontend/HTML/index.html`)
+    win.loadFile(`${__dirname}../../../Frontend/HTML/index.html`)
 }
 
 app.whenReady().then(createWindow);
