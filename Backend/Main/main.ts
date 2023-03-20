@@ -10,8 +10,7 @@ function createWindow()
         }
     );
 
-    console.log(__dirname)
-    console.log(`${__dirname}../../../Frontend/HTML/index.html`)
+    win.setMenu(null);
     win.loadFile(`${__dirname}../../../Frontend/HTML/index.html`)
 }
 
