@@ -1,0 +1,14 @@
+{
+    "name": "auto-show-my-homework",
+    "version": "1.0.0",
+    "description": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "keywords": [],
+    "author": "https://github.com/Callumari08",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^23.1.4"
+    }
+}
