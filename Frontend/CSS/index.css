@@ -1,11 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+/*Elements*/
 
 body{
     background-color: #383444;
     padding: 1.5rem;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a455a;
+}
+
+tr:hover {
+    background-color: #2e2b38;
+}
+
+/*Classes*/

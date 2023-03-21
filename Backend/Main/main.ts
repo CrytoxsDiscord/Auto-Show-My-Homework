@@ -5,12 +5,12 @@ function createWindow()
     const win = new BrowserWindow
     (
         {
-            width: 768,
-            height: 560
+            width: 1900,
+            height: 1500,
         }
     );
 
-    win.setMenu(null);
+    //win.setMenu(null);
     win.loadFile(`${__dirname}../../../Frontend/HTML/index.html`)
 }
 
