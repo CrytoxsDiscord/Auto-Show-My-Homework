@@ -15,6 +15,7 @@ function createWindow()
 }
 
 app.whenReady().then(createWindow);
+// When the window is close, quit the app.
 app.on(`window-all-closed`, () => {
     if (process.platform !== 'darwin') app.quit();
 });
